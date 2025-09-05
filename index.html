@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unity of Islam</title>
+
+  <!-- Tailwind for navbar + hero only -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans relative">
+
+  <!-- Floating dots background -->
+  <div id="particles" class="absolute inset-0 -z-10 overflow-hidden"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="real.logo.png" alt="Logo" class="h-10 w-auto">
+        <span class="font-bold text-xl text-gray-800">Cube Masters</span>
+      </div>
+      <ul class="hidden md:flex space-x-8 font-medium text-gray-700">
+        <li><a href="#about" class="hover:text-black transition">About</a></li>
+        <li><a href="#services" class="hover:text-black transition">Our Goals</a></li>
+        <li><a href="#events" class="hover:text-black transition">Events</a></li>
+        <li><a href="#Join" class="hover:text-black transition">Join</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section relative z-10 min-h-screen flex items-center justify-center px-6 py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <!-- Image above title -->
+      <img src="real.logo.png" alt="Cube Masters" class="mx-auto mb-6 hero-logo">
+      <div class="title">
+        <h1 id="heroTitle" class="text-5xl md:text-7xl font-bold mb-8 leading-tight typing">
+            As-salamu alaykum!
+        </h1>
+        <h1 id="heroTitle2" class="text-5xl md:text-7xl font-bold mb-8 leading-tight typing2">
+          Welcome to Unity of Islam 
+        </h1>
+        <div class="button-row animate-on-scroll">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRNfIFngqah4DhPp6nZ-o4K5_zc9St8PHSQDhtO8XcX322Tw/viewform?usp=header"><button class="btn">Join Us</button></a>
+          <a href="#about"><button class="btn btn-alt">Learn More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="about">
+    <h1 class="animate-on-scroll">About Us</h1>
+    <p class="animate-on-scroll">
+      We're a student-led club dedicated to fostering a wlcoming evironment for Muslim students strengthen their faith and build life lasting bond.
+    </p>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h1 class="animate-on-scroll">Our Goals</h1>
+    <div class="container-row">
+      <div class="service-box animate-on-scroll">
+        <h3>Connect</h3>
+        <p>Build friendships and support witin our school's Muslim community.</p>
+      </div>
+      <div class="service-box animate-on-scroll">
+        <h3>Learn</h3>
+        <p>Deepen your understanding of Islam through disussions.</p>
+      </div>
+      <div class="service-box animate-on-scroll">
+        <h3>Grow</h3>
+        <p>Strenghthen your connetion with Allah through prayer and shared reflection.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+   <div class="events">
+  <section id="events" class="events">
+    <h1 class="animate-on-scroll">Upcoming Events</h1>
+    <p class="subtitle animate-on-scroll">Check back soon for upcoming events and workshops!</p>
+    <div class="container">
+      <div class="card animate-on-scroll">
+        <h2>No events scheduled yet</h2>
+        <p>Join us for our weekly practice sessions where we'll learn more about Islam and strenghthen our connection with Allah</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="leadership" class="leadership">
+    <h1 class="animate-on-scroll">Meet our leadership</h1>
+    <div class="container-row">
+      <div class="service-box animate-on-scroll">
+        <h3>Zain</h3>
+        <p>President</p>
+    </div>
+        <div class="service-box animate-on-scroll">
+          <h3>TBD</h3>
+          <p>Teacher Advisor</p>
+      </div>
+  </section>
+
+  <section id="Join" class="join">
+    <h1 class="animate-on-scroll">Ready to join?</h1>
+    <p class="subtitle">Become part of our community today! No knowledge necessary, just bring your enthusiasm.</p>
+  
+    <div class="card animate-on-scroll">
+      <h2>Ready to join Unity of Islam?</h2>
+      <p>Click the button below to open the signup form!</p>
+      <div class="button-row animate-on-scroll">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRNfIFngqah4DhPp6nZ-o4K5_zc9St8PHSQDhtO8XcX322Tw/viewform?usp=header"><button class="btn">Join Us</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- About -->
+      <div>
+        <div class="footer-logo">
+          <img src="real.logo.png" alt="Cube Masters Logo">
+          <span>Cube Masters</span>
+        </div>
+        <p>Bringing the joy of cubing and problem-solving to our school community.</p>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Our Goals</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#Join">Join</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect -->
+      <div>
+        <h3>Connect</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="mailto:Zain.sadiq@rafos.org"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact --> 
+      <div>
+        <h3>Contact</h3>
+        <p><a href="mailto:Zain.sadiq@rafos.org">Zain.sadiq@rafos.org</a></p>
+        <p>WSCA</p>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="footer-bottom">
+      <p>© 2025 Cube Masters. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+  <!-- Scripts -->
+  <script>
+    /* Particle background */
+    const container = document.getElementById("particles");
+    const particleCount = 100;
+    const particles = [];
+    const colors = ["#725852", "#e98969"]; // updated colors
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement("div");
+      particle.style.position = "absolute";
+      particle.style.borderRadius = "50%";
+      const size = Math.random() * 6 + 2;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      particle.style.width = size + "px";
+      particle.style.height = size + "px";
+      particle.style.background = color;
+      particle.style.opacity = Math.random() * 0.6 + 0.2;
+      container.appendChild(particle);
+      particles.push({
+        el: particle,
+        x: Math.random() * 100,
+        y: Math.random() * 100,
+        moveSpeed: Math.random() * 2 + 0.5,
+        direction: Math.random() * 360
+      });
+    }
+    function animateParticles() {
+      particles.forEach(p => {
+        let newX = p.x + Math.cos(p.direction * Math.PI / 180) * p.moveSpeed * 0.1;
+        let newY = p.y + Math.sin(p.direction * Math.PI / 180) * p.moveSpeed * 0.1;
+        if (newX <= 0 || newX >= 100) { p.direction = 180 - p.direction; newX = Math.max(0, Math.min(100, newX)); }
+        if (newY <= 0 || newY >= 100) { p.direction = -p.direction; newY = Math.max(0, Math.min(100, newY)); }
+        p.x = newX; p.y = newY;
+        p.el.style.left = p.x + "%"; p.el.style.top = p.y + "%";
+      });
+      requestAnimationFrame(animateParticles);
+    }
+    animateParticles();
+
+    /* Remove typing caret after animation */
+    const heroTitle = document.getElementById("heroTitle");
+    heroTitle.addEventListener("animationend", () => { heroTitle.classList.add("end"); });
+    const heroTitle2 = document.getElementById("heroTitle2");
+    heroTitle2.addEventListener("animationend", () => { heroTitle2.classList.add("end2"); });
+
+    /* Scroll animations */
+    const elements = document.querySelectorAll('.animate-on-scroll');
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // run once
+        }
+      });
+    }, { threshold: 0.2 });
+    elements.forEach(el => observer.observe(el));
+
+    /* Stagger services */
+    document.querySelectorAll('.service-box').forEach((el, i) => {
+      el.style.setProperty('--delay', `${i * 0.3}s`);
+      el.classList.add('stagger');
+    });
+  </script>
+</body>
+</html>
